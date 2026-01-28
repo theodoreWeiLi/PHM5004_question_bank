@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Practice</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="stats-panel">
+            <div class="stat"><strong>Total:</strong> <span id="stat-total">0</span></div>
+            <div class="stat"><strong>Left:</strong> <span id="stat-left">0</span></div>
+            <div class="stat"><strong>Correct:</strong> <span id="stat-correct">0</span></div>
+            <div class="stat"><strong>Incorrect:</strong> <span id="stat-incorrect">0</span></div>
+        </div>
+        <div id="progress-container">
+            <div id="progress-bar"></div>
+        </div>
+        <div id="question-container">
+            <h2 id="question-text"></h2>
+            <form id="options-form">
+                <div id="options"></div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div id="feedback-container">
+            <p id="feedback-text"></p>
+            <p id="analysis-text"></p>
+            <button id="next-button">Next</button>
+        </div>
+        <div id="completion-container" style="display:none;">
+            <h3>All questions completed</h3>
+            <p>Would you like to start a new turn and practice the questions again?</p>
+            <button id="restart-button">Start new turn</button>
+            <button id="dismiss-button">Dismiss</button>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Local cookies/session artifacts
+cookiejar
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
